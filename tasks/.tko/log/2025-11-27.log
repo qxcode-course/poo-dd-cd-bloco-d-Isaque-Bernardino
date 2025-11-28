@@ -1,0 +1,16 @@
+2025-11-27 22:46:56, MOVE, v:1, k:poo@agenda, mode:PICK
+2025-11-27 22:46:57, EXEC, v:1, k:poo@agenda, mode:FULL, rate:0, size:2
+2025-11-27 22:46:58, MOVE, v:1, k:poo@agenda, mode:BACK
+2025-11-27 22:50:04, MOVE, v:1, k:poo@agenda, mode:PICK
+2025-11-27 22:50:06, EXEC, v:1, k:poo@agenda, mode:FULL, rate:0, size:6
+2025-11-27 22:57:57, EXEC, v:1, k:poo@agenda, mode:FULL, rate:0, size:10
+2025-11-27 22:58:01, MOVE, v:1, k:poo@agenda, mode:BACK
+2025-11-27 22:58:04, MOVE, v:1, k:poo@agenda, mode:PICK
+2025-11-27 22:58:04, EXEC, v:1, k:poo@agenda, mode:FULL, rate:0
+2025-11-27 23:17:54, EXEC, v:1, k:poo@agenda, mode:FULL, rate:0, size:15
+2025-11-27 23:17:55, MOVE, v:1, k:poo@agenda, mode:BACK
+2025-11-27 23:26:04, MOVE, v:1, k:poo@agenda, mode:PICK
+2025-11-27 23:26:04, EXEC, v:1, k:poo@agenda, mode:FULL, rate:0
+2025-11-27 23:26:58, EXEC, v:1, k:poo@agenda, mode:FULL, rate:0, size:16
+2025-11-27 23:26:59, EXEC, v:1, k:poo@agenda, mode:FULL, rate:0
+2025-11-27 23:27:00, MOVE, v:1, k:poo@agenda, mode:BACK

@@ -1,0 +1,64 @@
+{
+    "patches": [
+        {
+            "label": "2025-11-27_22-46-57",
+            "content": "@@ -34,107 +34,5 @@\n , id\n-: str number: str)%0A    self.__id = id%0A    self.__number = number%0A    def __str__(self) -%3E str:%0A        \n+)\n",
+            "lines": "2"
+        },
+        {
+            "label": "2025-11-27_22-50-06",
+            "content": "@@ -35,17 +35,16 @@\n  id: str\n-,\n  number:\n@@ -107,173 +107,34 @@\n def \n-getId(self):%0A        return self.__id%0A    def getNumber(self):%0A        return self.__number%0A    def __str__(self) -%3E str:%0A        return f%22%5B%7Bself.__id%7D:%7Bself.__number%7D%5D%22\n+__str__(self) -%3E str:%0A        \n",
+            "lines": "6"
+        },
+        {
+            "label": "2025-11-27_22-57-57",
+            "content": "@@ -277,139 +277,4 @@\n r%7D%5D%22\n-%0Aclass Contact:%0A    def __init__(self, name: str):%0A        self.__name = name%0A    def getFone(self):%0A        self.fone: list%5BFone%5D = %5B%5D\n",
+            "lines": "10"
+        },
+        {
+            "label": "2025-11-27_23-17-54",
+            "content": "@@ -355,31 +355,8 @@\n ame%0A\n-    def addFone(self):%0A\n     \n",
+            "lines": "15"
+        },
+        {
+            "label": "2025-11-27_23-26-58",
+            "content": "@@ -435,115 +435,4 @@\n = %5B%5D\n-%0A    def getName(self):%0A        return self.__name%0A    def setName(self, name: str):%0A        self.__name = name\n",
+            "lines": "16"
+        },
+        {
+            "label": "2025-11-28_11-46-00",
+            "content": "@@ -526,29 +526,24 @@\n       self.__name = name\n-%0A    \n",
+            "lines": "20"
+        },
+        {
+            "label": "2025-11-28_11-46-49",
+            "content": "@@ -45,25 +45,24 @@\n number: str)\n-:\n %0A    self.__\n",
+            "lines": "21"
+        },
+        {
+            "label": "2025-11-28_11-47-11",
+            "content": "@@ -552,73 +552,4 @@\n     \n-def __str__(self) -%3E str:%0A        return f%22%7Bself.__name%7D %7Bself.fone%7D%22\n",
+            "lines": "21"
+        },
+        {
+            "label": "2025-11-28_11-51-03",
+            "content": "@@ -617,17 +617,8 @@\n f.fone%7D%22\n-%0A        \n",
+            "lines": "22"
+        },
+        {
+            "label": "2025-11-28_11-51-19",
+            "content": "@@ -43,36 +43,32 @@\n , number: str):%0A\n-    \n     self.__id = \n@@ -70,20 +70,16 @@\n id = id%0A\n-    \n     self\n@@ -617,8 +617,17 @@\n f.fone%7D%22\n+%0A        \n",
+            "lines": "23"
+        },
+        {
+            "label": "2025-11-28_11-51-45",
+            "content": "@@ -380,38 +380,16 @@\n one(self\n-, id: str, number: str\n ):%0A    d\n",
+            "lines": "22"
+        },
+        {
+            "label": "2025-11-28_12-03-57",
+            "content": "class Fone:\n    def __init__(self, id: str, number: str):\n        self.__id = id\n        self.__number = number\n    def getId(self):\n        return self.__id\n    def getNumber(self):\n        return self.__number\n    def __str__(self) -> str:\n        return f\"[{self.__id}:{self.__number}]\"\nclass Contact:\n    def __init__(self, name: str):\n        self.__name = name\n    def addFone(self, id: str, number: str):\n    def getFone(self):\n        self.fone: list[Fone] = []\n    def getName(self):\n        return self.__name\n    def setName(self, name: str):\n        self.__name = name\n    def __str__(self) -> str:\n        return f\"{self.__name} {self.fone}\"",
+            "lines": "22"
+        }
+    ]
+}
